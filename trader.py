@@ -186,8 +186,8 @@ class LongShortTrader():
         
 if __name__ == "__main__": # only if we run trader.py as a script, please do the following:
 
-    api_key = "B4F5sCCZAi15taGitLWOGMrP7AnezrKdyW77r1J712WDbTv6w1Mt2dHGnd1pZcyE"
-    secret_key = "2sjfs8UEtUynRwBFjTilnEk0jY24nOaGmeriY6RlKGJi6Yt73FbiFW5V1vsVoCb1"
+    api_key = "your api key"
+    secret_key = "Your secret key"
 
     client = Client(api_key = api_key, api_secret = secret_key, tld = "com", testnet = True)
     
